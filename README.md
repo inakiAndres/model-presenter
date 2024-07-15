@@ -1,13 +1,13 @@
 # Model Presenter
 
-![https://travis-ci.org/crushlovely/model-presenter.png](https://travis-ci.org/crushlovely/model-presenter.png)
-
 A lightweight model wrapper to prepare your data for the view layer.
+
+THIS IS A FORK OF https://github.com/crushlovely/model-presenter TO FIX THE VULNERABILITIES
 
 ## Example
 
 ```js
-var Presenter = require('model-presenter');
+var Presenter = require('model-presenter-zero-vulnerabilities');
 
 var PersonPresenter = Presenter.extend({
 
@@ -62,7 +62,7 @@ Presenters can be used out of the box, or you can use any of the adapters listed
 via npm
 
 ```bash
-$ npm install model-presenter
+$ npm install model-presenter-zero-vulnerabilities
 ```
 
 ## Presenter Properties
