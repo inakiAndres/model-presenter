@@ -1,6 +1,6 @@
 {
   "name": "model-presenter-zero-vulnerabilities",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "description": "Make your model data presentable.",
   "author": {
     "name": "Crush & Lovely",
@@ -12,9 +12,15 @@
     "underscore": "1.13.8"
   },
   "devDependencies": {
-    "mocha": "",
-    "should": "",
-    "chai": "~1.8.1"
+    "mocha": "^11.8.0",
+    "should": "^13.0.0",
+    "chai": "^4.3.10"
+  },
+  "overrides": {
+    "diff": "^9.0.0",
+    "glob": "^14.0.6",
+    "minimatch": "^11.0.8",
+    "serialize-javascript": "^7.1.4"
   },
   "repository": {
     "type": "git",
