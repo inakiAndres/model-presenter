@@ -1,6 +1,6 @@
 {
   "name": "model-presenter-zero-vulnerabilities",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Make your model data presentable.",
   "author": {
     "name": "Crush & Lovely",
@@ -9,7 +9,7 @@
   },
   "main": "lib/model-presenter.js",
   "dependencies": {
-    "underscore": "1.13.6"
+    "underscore": "1.13.8"
   },
   "devDependencies": {
     "mocha": "",
